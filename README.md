@@ -1,15 +1,17 @@
 <div>
-  <h1 align="center">Docker Machine Learning</h1>
-  <h4 align="center">A template for Machine Learning projects with Docker</h4>
+  <h1 align="center">IMDb Non-Commercial Datasets Cleanup</h1>
+  <h4 align="center">Cleanup IMDb Open Datasets for a Movies Watchlist Educational Project</h4>
 </div>
 
 ## Motivation
 
-Spin up Machine Learning projects with ease, avoiding a virtual environment
-setup by using Docker, extending compatibility for collaboration by having
-a operative system agnostic environment.
+Turn tabular data from IMDb Open Datasets into a relationship friendly structure.
+Then this data is used to fill up database in our educational project: https://github.com/Jorgealvarezpb7/movies-watchlist.
 
 ## Run Locally
+
+> Pickles, output CSV and input TSV files are not included in the repository.
+> Refer to them in: https://huggingface.co/datasets/EstebanBorai/imdb-non-commercial
 
 Build an run containers using `docker compose`
 
